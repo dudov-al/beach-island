@@ -1,0 +1,242 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 18px;
+  padding-bottom: 500px;
+}
+
+h2 {
+  font-size: 50px !important;
+  font-weight: 200 !important;
+  letter-spacing: 5px !important;
+  color: #f8f0d5 !important;
+}
+
+.home-header {
+  padding-top: 70px;
+  background: #ccc;
+  color: white;
+  text-align: center;
+  background-image: url(./sean-o-KMn4VEeEPR8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 1080px rgba(53, 53, 53, 0.3);
+  border-bottom: 20px solid white;
+  .fa {
+    font-size: 82px;
+    @media (max-width: 768px) {
+      font-size: 44px;
+      
+    }
+  }
+  .phone {
+    font-size: 24px;
+    @media (max-width: 768px) {
+      font-size: 18px;
+      
+    }
+  }
+  .conv {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+  span {
+    display: block;
+  }
+  .title {
+    font-size: 60px;
+    padding-bottom: 70px;
+    font-weight: 200;
+    padding-top: 80px;
+    @media (max-width: 768px) {
+      font-size: 36px;
+      padding-bottom: 30px;
+      padding-top: 40px;
+    }
+  }
+
+  .logo {
+    @media(max-width: 768px){
+      width: 50%;
+      margin-bottom: 10px;
+    }
+  }
+  a {
+    color: white;
+    display: block;
+    &.clickable {
+      @media(max-width: 768px){
+        margin-bottom: 15px;
+      }
+    }
+    
+  }
+
+  .image-holder {
+    position: relative;
+    img {
+      margin-bottom: -8px;
+    }
+    .overlay-img {
+      margin-bottom: 0px !important;
+      position: absolute !important;
+      top: 80% !important;
+      left: 50% !important;
+      transform: translate(-50%, -25%) !important;
+    }
+  }
+}
+.image-holder {
+  position: relative;
+  img {
+    margin-bottom: -8px;
+  }
+  .overlay-img {
+    margin-bottom: 0px !important;
+    position: absolute !important;
+    top: 80% !important;
+    left: 50% !important;
+    transform: translate(-50%, -25%) !important;
+    @media(max-width: 768px){
+      width: 20%;
+      
+    }
+  }
+}
+
+.home-info {
+  height: 565px;
+  background: gray;
+  background-image: url(/jon-moore-5fIoyoKlz7A-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 1080px rgba(17, 17, 17, 0.3);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  .call-to-action {
+    display: flex;
+    align-items: center;
+    .item {
+      flex: 1;
+      font-size: 36px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .conv {
+      filter: invert(100%);
+      -webkit-filter: invert(100%);
+    }
+  }
+
+  .call-to-action-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: white;
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+.spacer {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  height: 1px;
+  border-top: 2px dashed white;
+}
+
+.home-function {
+  border-top: 10px solid white;
+
+  background-image: url(/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg);
+  box-shadow: inset 0 0 0 1080px rgba(85, 85, 85, 0.3);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 50px;
+
+  text-align: center;
+  .big-button {
+    background-color: #27aae1;
+    color: white;
+    font-size: 40px;
+    padding: 0.75em 1.5em;
+    border-radius: 0.5em;
+    border: 10px solid white;
+    display: inline-block;
+    transform: translateY(-90%);
+    transition: ease 0.25s all;
+    .fa-cutlery {
+      margin-right: 0.5em;
+    }
+    .fa-file-pdf-o {
+      margin-left: 0.5em;
+    }
+    &:hover {
+      background: darken(#27aae1, 15%);
+      text-decoration: none;
+      transform: translateY(-90%) scale(1.025);
+    }
+  }
+  .tagline {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .tagline-minus {
+    font-weight: 200;
+  }
+  h2 {
+    margin-bottom: 50px;
+  }
+  .image-holder {
+    margin-top: 80px;
+  }
+}
+
+#footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #27aaec;
+  border-top: 20px solid white;
+ 
+  color: white;
+  text-align: center;
+  h3 {
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 50px;
+  }
+  .contact-form {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .social-link {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    .fa {
+      font-size: 42px;
+    }
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  .copyright {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  .instagram-holder {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+}
